@@ -2,14 +2,17 @@ body {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     font-size: 14px;
+    border: 1px solid green;
 }
 
 h1, h2, h3 {
+    border: 1px solid red;
     background-color: whitesmoke;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     font: 600;
-}
+    padding: 8px;
+}   
 
 ul {
     list-style-type: square;
@@ -22,4 +25,87 @@ a:visited {
 a:hover {
     color: red;
 }
+
+img {
+    display: inline-block; 
+    margin-left: 15px;
+    vertical-align: top;
+    /* display: inline-block; boxes behave like inline boxes
+    but with the padding and margins of block format boxes*/
+}
+
+.dish-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.overview-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.dish-container-one {
+    display: inline-block;
+    width: 580px;
+}
+
+.dish-container-two {
+    display: inline-block;
+    width: 580px;
+}
+
+.dish-container-three {
+    display: inline-block;
+    width: 580px;
+}
+
+
+.overview h3 {
+    background-color: white;
+    border: none;
+}
+
+.title p {
+    margin-top: 0;
+    border: 1px solid blue;
+}
+
+.dish-container-one h1 {
+    background-color: none;
+}
+
+.dish-container-two h1 {
+    background-color: none;
+}
+
+
+.dish-container-three h1 {
+    background-color: none;
+}
+
+
+.dishes p {
+    display: inline-block;
+    border: 1px solid red;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 580px;
+    height: 150px;
+}
+
+.introduction .title {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
